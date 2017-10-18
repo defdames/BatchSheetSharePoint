@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <setParameter name="IIS Web Application Name" value="Default Web Site/BatchSheetWeb_deploy" />
+  <setParameter name="ClientId" value="982fe9aa-ff3a-4108-96a9-1a26aa2c9d27" />
+  <setParameter name="ClientSecret" value="o55jAC1Vn6pNsvwXoAHohfAeZuoMMDfBfBd56PN0bws" />
+  <setParameter name="adageAzureEntities-Web.config Connection String" value="metadata=res://*/Model2.csdl|res://*/Model2.ssdl|res://*/Model2.msl;provider=System.Data.SqlClient;provider connection string='data source=baosw85isl.database.windows.net;initial catalog=adage;persist security info=True;user id=qdoland;password=&quot;8F(Sof;cT,7s&quot;;MultipleActiveResultSets=True;App=EntityFramework'" />
+  <setParameter name="adage_45Entities-Web.config Connection String" value="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=reports1;initial catalog=adage_45;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" />
+  <setParameter name="adageConnectionString-Web.config Connection String" value="Data Source=baosw85isl.database.windows.net;Initial Catalog=adage;Persist Security Info=True;User ID=qdoland;Password=&quot;8F(Sof;cT,7s&quot;;MultipleActiveResultSets=True;Application Name=EntityFramework" />
+</parameters>

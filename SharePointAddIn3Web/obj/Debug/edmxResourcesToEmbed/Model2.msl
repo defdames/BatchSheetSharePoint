@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="adageModelStoreContainer" CdmEntityContainer="adageAzureEntities">
+    <EntitySetMapping Name="BATCH_SHEETS_New">
+      <EntityTypeMapping TypeName="adageModel.BATCH_SHEETS_New">
+        <MappingFragment StoreEntitySet="BATCH_SHEETS_New">
+          <ScalarProperty Name="Row" ColumnName="Row" />
+          <ScalarProperty Name="DATE" ColumnName="DATE" />
+          <ScalarProperty Name="MIXER" ColumnName="MIXER" />
+          <ScalarProperty Name="GRADE" ColumnName="GRADE" />
+          <ScalarProperty Name="BATCH_NUMBER" ColumnName="BATCH_NUMBER" />
+          <ScalarProperty Name="INGREDIENT1" ColumnName="INGREDIENT1" />
+          <ScalarProperty Name="INGREDIENT2" ColumnName="INGREDIENT2" />
+          <ScalarProperty Name="INGREDIENT3" ColumnName="INGREDIENT3" />
+          <ScalarProperty Name="INGREDIENT4" ColumnName="INGREDIENT4" />
+          <ScalarProperty Name="INGREDIENT5" ColumnName="INGREDIENT5" />
+          <ScalarProperty Name="INGREDIENT6" ColumnName="INGREDIENT6" />
+          <ScalarProperty Name="INGREDIENT7" ColumnName="INGREDIENT7" />
+          <ScalarProperty Name="INGREDIENT8" ColumnName="INGREDIENT8" />
+          <ScalarProperty Name="INGREDIENT9" ColumnName="INGREDIENT9" />
+          <ScalarProperty Name="INGREDIENT10" ColumnName="INGREDIENT10" />
+          <ScalarProperty Name="INGREDIENT11" ColumnName="INGREDIENT11" />
+          <ScalarProperty Name="INGREDIENT12" ColumnName="INGREDIENT12" />
+          <ScalarProperty Name="LOT_NO1" ColumnName="LOT_NO1" />
+          <ScalarProperty Name="LOT_NO2" ColumnName="LOT_NO2" />
+          <ScalarProperty Name="LOT_NO3" ColumnName="LOT_NO3" />
+          <ScalarProperty Name="LOT_NO4" ColumnName="LOT_NO4" />
+          <ScalarProperty Name="LOT_NO5" ColumnName="LOT_NO5" />
+          <ScalarProperty Name="LOT_NO6" ColumnName="LOT_NO6" />
+          <ScalarProperty Name="LOT_NO7" ColumnName="LOT_NO7" />
+          <ScalarProperty Name="LOT_NO8" ColumnName="LOT_NO8" />
+          <ScalarProperty Name="LOT_NO9" ColumnName="LOT_NO9" />
+          <ScalarProperty Name="LOT_NO10" ColumnName="LOT_NO10" />
+          <ScalarProperty Name="LOT_NO11" ColumnName="LOT_NO11" />
+          <ScalarProperty Name="LOT_NO12" ColumnName="LOT_NO12" />
+          <ScalarProperty Name="AMOUNT1" ColumnName="AMOUNT1" />
+          <ScalarProperty Name="AMOUNT2" ColumnName="AMOUNT2" />
+          <ScalarProperty Name="AMOUNT3" ColumnName="AMOUNT3" />
+          <ScalarProperty Name="AMOUNT4" ColumnName="AMOUNT4" />
+          <ScalarProperty Name="AMOUNT5" ColumnName="AMOUNT5" />
+          <ScalarProperty Name="AMOUNT6" ColumnName="AMOUNT6" />
+          <ScalarProperty Name="AMOUNT7" ColumnName="AMOUNT7" />
+          <ScalarProperty Name="AMOUNT8" ColumnName="AMOUNT8" />
+          <ScalarProperty Name="AMOUNT9" ColumnName="AMOUNT9" />
+          <ScalarProperty Name="AMOUNT10" ColumnName="AMOUNT10" />
+          <ScalarProperty Name="AMOUNT11" ColumnName="AMOUNT11" />
+          <ScalarProperty Name="AMOUNT12" ColumnName="AMOUNT12" />
+          <ScalarProperty Name="LOADED_BY1" ColumnName="LOADED_BY1" />
+          <ScalarProperty Name="LOADED_BY2" ColumnName="LOADED_BY2" />
+          <ScalarProperty Name="LOADED_BY3" ColumnName="LOADED_BY3" />
+          <ScalarProperty Name="LOADED_BY4" ColumnName="LOADED_BY4" />
+          <ScalarProperty Name="LOADED_BY5" ColumnName="LOADED_BY5" />
+          <ScalarProperty Name="LOADED_BY6" ColumnName="LOADED_BY6" />
+          <ScalarProperty Name="LOADED_BY7" ColumnName="LOADED_BY7" />
+          <ScalarProperty Name="LOADED_BY8" ColumnName="LOADED_BY8" />
+          <ScalarProperty Name="LOADED_BY9" ColumnName="LOADED_BY9" />
+          <ScalarProperty Name="LOADED_BY10" ColumnName="LOADED_BY10" />
+          <ScalarProperty Name="LOADED_BY11" ColumnName="LOADED_BY11" />
+          <ScalarProperty Name="LOADED_BY12" ColumnName="LOADED_BY12" />
+          <ScalarProperty Name="MIXING_INSTRUCTIONS" ColumnName="MIXING_INSTRUCTIONS" />
+          <ScalarProperty Name="TYPE_OF_DRUM" ColumnName="TYPE_OF_DRUM" />
+          <ScalarProperty Name="WEIGHT_PER_DRUM" ColumnName="WEIGHT_PER_DRUM" />
+          <ScalarProperty Name="NUMBER_OF_DRUMS" ColumnName="NUMBER_OF_DRUMS" />
+          <ScalarProperty Name="WEIGHT_PRODUCED" ColumnName="WEIGHT_PRODUCED" />
+          <ScalarProperty Name="REVISION_DATE" ColumnName="REVISION_DATE" />
+          <ScalarProperty Name="FORM_VERSION" ColumnName="FORM_VERSION" />
+          <ScalarProperty Name="MIXER_BATCH_SHEET" ColumnName="MIXER_BATCH_SHEET" />
+          <ScalarProperty Name="INST2" ColumnName="INST2" />
+          <ScalarProperty Name="SAMPLE_AND_LABEL" ColumnName="SAMPLE_AND_LABEL" />
+          <ScalarProperty Name="INGRED" ColumnName="INGRED" />
+          <ScalarProperty Name="POT_FORMULA" ColumnName="POT_FORMULA" />
+          <ScalarProperty Name="BLADE_SPEED" ColumnName="BLADE_SPEED" />
+          <ScalarProperty Name="SPEED" ColumnName="SPEED" />
+          <ScalarProperty Name="PRESS_DATA" ColumnName="PRESS_DATA" />
+          <ScalarProperty Name="EXPIRATION_DATE" ColumnName="EXPIRATION_DATE" />
+          <ScalarProperty Name="STORAGE" ColumnName="STORAGE" />
+          <ScalarProperty Name="THEOR_WT" ColumnName="THEOR_WT" />
+          <ScalarProperty Name="OPER" ColumnName="OPER" />
+          <ScalarProperty Name="OPER_Copy" ColumnName="OPER_Copy" />
+          <ScalarProperty Name="Adage_Item_Code" ColumnName="Adage_Item_Code" />
+          <ScalarProperty Name="LastUpdate" ColumnName="LastUpdate" />
+          <ScalarProperty Name="WhichUser" ColumnName="WhichUser" />
+          <ScalarProperty Name="NameofMachine" ColumnName="NameofMachine" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

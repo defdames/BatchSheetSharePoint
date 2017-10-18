@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="adageModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="BATCH_SHEETS_New">
+    <Key>
+      <PropertyRef Name="Row" />
+    </Key>
+    <Property Name="Row" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DATE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="MIXER" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="GRADE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="BATCH_NUMBER" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT1" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT2" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT3" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT4" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT5" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT6" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT7" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT8" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT9" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT10" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT11" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="INGREDIENT12" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO1" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO2" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO3" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO4" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO5" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO6" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO7" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO8" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO9" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO10" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO11" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOT_NO12" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT1" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT2" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT3" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT4" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT5" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT6" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT7" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT8" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT9" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT10" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT11" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="AMOUNT12" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY1" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY2" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY3" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY4" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY5" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY6" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY7" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY8" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY9" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY10" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY11" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="LOADED_BY12" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="MIXING_INSTRUCTIONS" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TYPE_OF_DRUM" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="WEIGHT_PER_DRUM" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="NUMBER_OF_DRUMS" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="WEIGHT_PRODUCED" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="REVISION_DATE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="FORM_VERSION" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="MIXER_BATCH_SHEET" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="INST2" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="SAMPLE_AND_LABEL" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="INGRED" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="POT_FORMULA" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="BLADE_SPEED" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="SPEED" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="PRESS_DATA" Type="String" MaxLength="1000" FixedLength="false" Unicode="false" />
+    <Property Name="EXPIRATION_DATE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="STORAGE" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="THEOR_WT" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="OPER" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="OPER_Copy" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+    <Property Name="Adage_Item_Code" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="LastUpdate" Type="DateTime" Precision="3" />
+    <Property Name="WhichUser" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="NameofMachine" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityContainer Name="adageAzureEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BATCH_SHEETS_New" EntityType="Self.BATCH_SHEETS_New" />
+  </EntityContainer>
+</Schema>

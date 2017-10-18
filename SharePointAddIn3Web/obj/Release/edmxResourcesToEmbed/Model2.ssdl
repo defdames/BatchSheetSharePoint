@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="adageModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012.Azure" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="BATCH_SHEETS_New">
+    <Key>
+      <PropertyRef Name="Row" />
+    </Key>
+    <Property Name="Row" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DATE" Type="varchar" MaxLength="500" />
+    <Property Name="MIXER" Type="varchar" MaxLength="500" />
+    <Property Name="GRADE" Type="varchar" MaxLength="500" />
+    <Property Name="BATCH_NUMBER" Type="varchar" MaxLength="500" />
+    <Property Name="INGREDIENT1" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT2" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT3" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT4" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT5" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT6" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT7" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT8" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT9" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT10" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT11" Type="varchar" MaxLength="1000" />
+    <Property Name="INGREDIENT12" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO1" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO2" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO3" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO4" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO5" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO6" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO7" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO8" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO9" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO10" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO11" Type="varchar" MaxLength="1000" />
+    <Property Name="LOT_NO12" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT1" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT2" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT3" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT4" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT5" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT6" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT7" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT8" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT9" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT10" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT11" Type="varchar" MaxLength="1000" />
+    <Property Name="AMOUNT12" Type="varchar" MaxLength="1000" />
+    <Property Name="LOADED_BY1" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY2" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY3" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY4" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY5" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY6" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY7" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY8" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY9" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY10" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY11" Type="varchar" MaxLength="500" />
+    <Property Name="LOADED_BY12" Type="varchar" MaxLength="500" />
+    <Property Name="MIXING_INSTRUCTIONS" Type="varchar(max)" />
+    <Property Name="TYPE_OF_DRUM" Type="varchar" MaxLength="500" />
+    <Property Name="WEIGHT_PER_DRUM" Type="varchar" MaxLength="500" />
+    <Property Name="NUMBER_OF_DRUMS" Type="varchar" MaxLength="500" />
+    <Property Name="WEIGHT_PRODUCED" Type="varchar" MaxLength="500" />
+    <Property Name="REVISION_DATE" Type="varchar" MaxLength="500" />
+    <Property Name="FORM_VERSION" Type="varchar" MaxLength="500" />
+    <Property Name="MIXER_BATCH_SHEET" Type="varchar" MaxLength="500" />
+    <Property Name="INST2" Type="varchar" MaxLength="500" />
+    <Property Name="SAMPLE_AND_LABEL" Type="varchar" MaxLength="500" />
+    <Property Name="INGRED" Type="varchar" MaxLength="1000" />
+    <Property Name="POT_FORMULA" Type="varchar" MaxLength="500" />
+    <Property Name="BLADE_SPEED" Type="varchar" MaxLength="500" />
+    <Property Name="SPEED" Type="varchar" MaxLength="1000" />
+    <Property Name="PRESS_DATA" Type="varchar" MaxLength="1000" />
+    <Property Name="EXPIRATION_DATE" Type="varchar" MaxLength="500" />
+    <Property Name="STORAGE" Type="varchar" MaxLength="500" />
+    <Property Name="THEOR_WT" Type="varchar" MaxLength="500" />
+    <Property Name="OPER" Type="varchar" MaxLength="500" />
+    <Property Name="OPER_Copy" Type="varchar" MaxLength="500" />
+    <Property Name="Adage_Item_Code" Type="varchar" MaxLength="200" />
+    <Property Name="LastUpdate" Type="datetime" />
+    <Property Name="WhichUser" Type="varchar" MaxLength="50" />
+    <Property Name="NameofMachine" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityContainer Name="adageModelStoreContainer">
+    <EntitySet Name="BATCH_SHEETS_New" EntityType="Self.BATCH_SHEETS_New" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

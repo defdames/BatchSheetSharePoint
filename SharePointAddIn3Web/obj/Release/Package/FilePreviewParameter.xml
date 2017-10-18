@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="https://silberlinemfg.sharepoint.com/sites/devsite" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^\\\\Mac\\Home\\Documents\\Visual\ Studio\ 2015\\Projects\\SharePointAddIn3\\SharePointAddIn3Web\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^\\\\Mac\\Home\\Documents\\Visual\ Studio\ 2015\\Projects\\SharePointAddIn3\\SharePointAddIn3Web\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="adageAzureEntities-Web.config Connection String" description="" value="metadata=res://*/Model2.csdl|res://*/Model2.ssdl|res://*/Model2.msl;provider=System.Data.SqlClient;provider connection string='data source=baosw85isl.database.windows.net;initial catalog=adage;persist security info=True;user id=qdoland;password=&quot;8F(Sof;cT,7s&quot;;MultipleActiveResultSets=True;App=EntityFramework'" tags="">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\Visual\ Studio\ 2015\\Projects\\SharePointAddIn3\\SharePointAddIn3Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='adageAzureEntities']/@connectionString" />
+  </parameter>
+  <parameter name="adage_45Entities-Web.config Connection String" description="adage_45Entities Connection String used in web.config by the application to access the database." value="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=reports1;initial catalog=adage_45;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\Visual\ Studio\ 2015\\Projects\\SharePointAddIn3\\SharePointAddIn3Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='adage_45Entities']/@connectionString" />
+  </parameter>
+  <parameter name="adageConnectionString-Web.config Connection String" description="adageConnectionString Connection String used in web.config by the application to access the database." value="Data Source=baosw85isl.database.windows.net;Initial Catalog=adage;Persist Security Info=True;User ID=qdoland;Password=&quot;8F(Sof;cT,7s&quot;;MultipleActiveResultSets=True;Application Name=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\Visual\ Studio\ 2015\\Projects\\SharePointAddIn3\\SharePointAddIn3Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='adageConnectionString']/@connectionString" />
+  </parameter>
+</parameters>

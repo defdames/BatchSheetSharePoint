@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Id="a822efcc-ae3c-4b9f-b2b5-96c535609d9e" Scope="Web" Title="SharePointAddIn3 Feature1" Version="1.0.1.1">
+  <ElementManifests>
+    <ElementManifest Location="Elements.xml" />
+    <ElementManifest Location="Pages\Elements.xml" />
+    <ElementManifest Location="Content\Elements.xml" />
+    <ElementManifest Location="Images\Elements.xml" />
+    <ElementManifest Location="Scripts\Elements.xml" />
+  </ElementManifests>
+  <UpgradeActions>
+    <VersionRange>
+      <ApplyElementManifests>
+        <ElementManifest Location="Elements.xml" />
+        <ElementManifest Location="Pages\Elements.xml" />
+        <ElementManifest Location="Content\Elements.xml" />
+        <ElementManifest Location="Images\Elements.xml" />
+        <ElementManifest Location="Scripts\Elements.xml" />
+      </ApplyElementManifests>
+    </VersionRange>
+  </UpgradeActions>
+</Feature>
