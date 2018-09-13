@@ -1,1 +1,1 @@
-\\Mac\Home\Documents\Visual Studio 2015\Projects\SharePointAddIn3\SharePointAddIn3\bin\Debug\Batches.debugapp
+\\Mac\Home\Documents\OneDrive - Silberline\documents\Git\BatchSheetSharePoint\SharePointAddIn3\bin\Debug\Batches.debugapp

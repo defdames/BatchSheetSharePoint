@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="adage_45Entities-Web.config Connection String" description="adage_45Entities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model1.csdl|res://*/Model1.ssdl|res://*/Model1.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=reports1;initial catalog=adage_45;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\OneDrive\ -\ Silberline\\documents\\Git\\BatchSheetSharePoint\\SharePointAddIn3Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='adage_45Entities']/@connectionString" />
+  </parameter>
+  <parameter name="adageAzureEntities-Web.config Connection String" description="adageAzureEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Model2.csdl|res://*/Model2.ssdl|res://*/Model2.msl;provider=System.Data.SqlClient;provider connection string='data source=baosw85isl.database.windows.net;initial catalog=adage;persist security info=True;user id=qdoland;password=&quot;AonVJoOjD1oEMNVe&quot;;MultipleActiveResultSets=True;App=EntityFramework'" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\OneDrive\ -\ Silberline\\documents\\Git\\BatchSheetSharePoint\\SharePointAddIn3Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='adageAzureEntities']/@connectionString" />
+  </parameter>
+  <parameter name="adageConnectionString-Web.config Connection String" description="adageConnectionString Connection String used in web.config by the application to access the database." defaultValue="Data Source=baosw85isl.database.windows.net;Initial Catalog=adage;Persist Security Info=True;User ID=qdoland;Password=&quot;AonVJoOjD1oEMNVe&quot;;MultipleActiveResultSets=True;Application Name=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="\\\\Mac\\Home\\Documents\\OneDrive\ -\ Silberline\\documents\\Git\\BatchSheetSharePoint\\SharePointAddIn3Web\\obj\\Debug\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='adageConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
